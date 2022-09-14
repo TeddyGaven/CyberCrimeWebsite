@@ -1,0 +1,100 @@
+body#comp{
+  background-color: lightblue;
+}
+
+body{
+  background-color: blue;
+}
+header{
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  background-color: darkblue;
+}
+
+#more{
+  width: 150px;
+  height: 80px;
+}
+
+nav{
+  display: inline-block;
+  font-size: 20px;
+  align-self: top;
+  align-items: top;
+  border-spacing: 1300px;
+}
+
+.btn1{
+  background-color: darkblue;
+  color: green;
+  padding: 50px 70px;
+}
+
+.btn2{
+  background-color: darkblue;
+  color: green;
+  padding: 50px 70px;
+}
+
+.btn3{
+  background-color: darkblue;
+  color: green;
+  padding: 50px 70px;
+}
+
+a:hover{
+  background-color: lightblue;
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+  border-radius: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+nav:hover{
+  colour: blue;
+}
+
+button{
+  background-color: lightblue;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover{
+  background-color: darkblue;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+img#bgimg{
+  width: 100%;
+  height: auto;
+  opacity: 40;
+}
+
+#part2{
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+}
+
+#line1{
+  display: flex;
+}
+
+#line2{
+  display: flex;
+}
+
+#line3{
+  display: flex;
+}
