@@ -89,12 +89,51 @@ img#bgimg{
 
 #line1{
   display: flex;
+  padding: 50px 100px;
 }
 
 #line2{
   display: flex;
+  padding: 50px 60px;
 }
 
 #line3{
   display: flex;
+  padding: 50px 120px;
+}
+
+.type1{
+  padding: 30px 70px;
+}
+
+.type2{
+  padding: 30px 70px;
+}
+
+.type3{
+  padding: 30px 70px;
+}
+
+.type4{
+  padding: 30px 70px;
+}
+
+.type5{
+  padding: 30px 70px;
+}
+
+.type6{
+  padding: 30px 70px;
+}
+
+.type7{
+  padding: 30px 70px;
+}
+
+.type8{
+  padding: 30px 70px;
+}
+
+.type9{
+  padding: 30px 70px;
 }
