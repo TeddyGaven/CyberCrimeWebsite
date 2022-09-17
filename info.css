@@ -1,16 +1,33 @@
 body#comp{
   background-color: lightblue;
+  margin: 0px;
+}
+
+body#stu{
+  margin: 0;
 }
 
 body#bruh{
-  background-color: blue;
+  background-color: #767676;
+  margin: 0;
 }
+
+html{
+  width: 100%;
+}
+
+#gav{
+padding-left: :10px;
+
+}
+
 
 header{
   display: flex;
   font-size: 20px;
   align-items: center;
-  background-color: darkblue;
+  background-color: #004;
+  width: 100%;
 }
 
 #more{
@@ -24,33 +41,39 @@ nav{
   align-self: top;
   align-items: top;
   border-spacing: 1300px;
+  width: 100%;
+}
+
+#fom{
+  align-items: center;
 }
 
 .btn1{
-  background-color: darkblue;
-  color: green;
-  padding: 50px 70px;
+  background-color: #004;
+  color: #00dbff;
+  padding: 40.2px 80px;
 }
 
 .btn2{
-  background-color: darkblue;
-  color: green;
-  padding: 50px 70px;
+  background-color: #004;
+  color: #00dbff;
+  padding: 40.2px 80px;
 }
 
 .btn3{
-  background-color: darkblue;
-  color: green;
-  padding: 50px 70px;
+  background-color: #004;
+  color: #00dbff;
+  padding: 40.2px 80px;
 }
 
 a:hover{
-  background-color: lightblue;
+  background-color: darkblue;
+  cursor: pointer;
 }
 
 #logo{
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 102px;
   border-radius: none;
   cursor: pointer;
   display: inline-block;
@@ -78,10 +101,11 @@ img#bgimg{
   width: 100%;
   height: auto;
   opacity: inherit;
+  border-style: none;
 }
 
 img#supimg{
-  width: 130%;
+  width: 109%;
   height: auto;
   opacity: inherit;
 }
@@ -94,27 +118,27 @@ img#supimg{
   font-size: 40px;
   color: black;
   position: absolute;
-  top: 400px;
-  left: 600px;
+  top: 276px;
+  left: 545px;
 }
 
 #line1{
   display: flex;
-  padding: 50px 100px;
+  padding: -1px 100px;
 }
 
 #line2{
   display: flex;
-  padding: 50px 60px;
+  padding: -1px 60px;
 }
 
 #line3{
   display: flex;
-  padding: 50px 120px;
+  padding: -1px 120px;
 }
 
 .type1{
-  padding: 30px 70px;
+  padding: 30px 97px;
 }
 
 .type2{
@@ -126,7 +150,7 @@ img#supimg{
 }
 
 .type4{
-  padding: 30px 70px;
+  padding: 30px 43px;
 }
 
 .type5{
@@ -138,7 +162,7 @@ img#supimg{
 }
 
 .type7{
-  padding: 30px 70px;
+  padding: 30px 95px;
 }
 
 .type8{
@@ -155,4 +179,8 @@ h6{
 
 #tit{
   font-size: 30px;
+}
+
+#fom{
+     padding-left: 100px;
 }
