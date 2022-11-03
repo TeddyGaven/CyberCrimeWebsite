@@ -36,11 +36,13 @@ padding-left: 10px;
 #tabMa{
     top: 40%;
     left: 50%;
+    width: auto;
 }
 
 #tabm{
   top: 40%;
   left: 90%;
+  width: auto;
 }
 
 #tabl{
@@ -69,6 +71,7 @@ header{
  margin-left: 0px;
  display: flex;
  margin-right: 400px;
+ width: auto;
 }
 
 #fom{
