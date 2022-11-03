@@ -7,6 +7,8 @@ body#stu{
   margin: 0;
 }
 
+
+
 body#bruh{
   background-color: #767676;
   margin: 0;
@@ -17,10 +19,61 @@ html{
 }
 
 #gav{
-padding-left: :10px;
+padding-left: 10px;
 
 }
 
+.table{
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  background-color: White;
+  border: 1px solid black;
+
+}
+
+#tabMa{
+    top: 40%;
+    left: 50%;
+}
+
+#tabm{
+  top: 40%;
+  left: 90%;
+}
+
+#tabl{
+  display: flex;
+}
+
+#butto{
+  height: 48px;
+  margin-left: 40px;
+  width: 90px;
+}
+
+#Sub{
+  height: 48px;
+  width: 90px;
+
+}
+
+
+
+header{
+  width: auto;
+}
+
+#ar{
+ margin-left: 0px;
+ display: flex;
+ margin-right: 400px;
+}
+
+#fom{
+  display: flex;
+}
 
 header{
   display: flex;
@@ -80,7 +133,7 @@ a:hover{
 }
 
 nav:hover{
-  colour: blue;
+  color: blue;
 }
 
 button{
@@ -88,6 +141,14 @@ button{
   border-radius: 50px;
   cursor: pointer;
   padding: 10px;
+}
+
+.submit{
+  width: 70px;
+  height: 30px;
+}
+#Conf{
+  height: 50px;
 }
 
 button:hover{
@@ -104,9 +165,14 @@ img#bgimg{
   border-style: none;
 }
 
+#goku{
+  margin-left: 500px;
+
+}
+
 img#supimg{
   width: 109%;
-  height: auto;
+  height: 2536px;
   opacity: inherit;
 }
 
@@ -184,3 +250,357 @@ h6{
 #fom{
      padding-left: 100px;
 }
+
+.menav{
+   position: absolute;
+   margin-bottom: 10px;
+   padding-bottom: 0px;
+   align-content: center;
+   margin: 41px;
+   padding: 0px;
+}
+
+header{
+  height: 101px;
+  display: flex;
+  align-content: center;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+#hamza{
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn1{
+  margin: 0px;
+}
+
+@media all and (min-width: 150px) and (max-width: 600px)
+  {
+   
+  * {
+    margin: 0px;
+    padding: 0px; 
+    border: 0px;
+  }  
+    
+body #bruh{
+    background-color: rgb(142, 245, 83); 
+    width: auto; 
+    height: auto;
+  }
+
+  header{
+    width: 415px;
+    align-items:baseline;
+  }
+
+
+  #hamza{
+    display: flex;
+    width: auto;
+  }
+
+  nav{
+    padding-top: 10px;
+  }
+
+  #part1{
+    width: auto;
+    background-color: rgb(255, 255, 255);
+  }
+
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #part2{
+    width: auto;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid black;
+    position: center;
+    margin-right: 200px;
+  }
+
+  #part1 #bgimg{          
+    display: none;
+  }
+  
+  #super{
+    display: inline-block;
+    width: auto;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+  }
+
+  #super #supimg{
+    display: none;
+  }
+
+  #main{
+    width: auto;
+  }
+
+  nav{
+    justify-content: flex-end;
+    padding-left: 150px;
+    position: absolute;
+  }
+
+  header { 
+    background-color: rgb(23, 15, 143);
+  
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+  .menav{
+    display:inline-block;
+    position: absolute;
+    justify-content: flex-end;
+    margin-left: 130px;
+    width: auto;
+
+    margin-top: 0px;
+    padding-top: 0px;
+    height: auto;
+    border-spacing: 40px;
+  }
+
+  .btn1{
+    background-color: white;
+    padding: 5px;
+    color: #004;
+    font-weight: 100;    
+    margin: -109;
+  
+  }
+
+  #lu{
+    padding: 0px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+  #ff{
+    padding: 0px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+   #na{
+    padding: 0px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+  }
+
+  .btn2{
+    background-color: rgb(251, 251, 255);
+    padding: 5px;
+    top: 30px;
+    margin: 0px;
+    color: rgb(10, 10, 105);
+    font-weight: 100;
+  }
+  
+  .btn3{
+    background-color: white;
+    padding: 5px;
+    margin: -5px;
+    color: rgb(15, 15, 207);
+    font-weight: 100;  
+  }
+
+  #stu{
+    width: auto;
+    height: auto;
+  }
+  
+  #tit{
+    font-size: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  h2{
+    font-size: 15px;
+    width: auto;
+  }
+  h6{
+    font-size: 15px;
+    width: auto;
+  }
+  #line1{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+  }
+  #line2{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+
+  }
+  #line3{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  nav{
+    display: inline-block;
+    font-size: 10px;
+    align-self: top;
+    align-items: top;
+    width: auto;
+    justify-content: flex-end;
+   
+  }
+
+  #fom{
+    display: inline-block;
+    padding-left: 10px;
+  }
+
+  #comp{
+    width: auto;
+  }
+
+  #ar{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 30px;
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  .table{
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    background-color: White;
+    border: 1px solid black;
+  }
+  #tabMA{
+    width: auto;
+    height: auto;
+  }
+
+  
+  .type1{
+    padding: 0px;
+    width: auto;
+  }
+  
+  .type2{
+    padding: 0px;
+    width: auto;
+  }
+  
+  .type3{
+    padding: 0px;
+    width: auto;
+  }
+  
+  .type4{
+    padding: 0px;
+    width: auto;
+  }
+  
+  .type5{
+    padding: 0px;
+    width: auto;
+  }
+  
+  .type6{
+    padding: 0px;
+    width: auto;
+  }
+  
+  .type7{
+    padding: 0px;
+    width: auto;
+  }
+  
+  .type8{
+    padding: 0px;
+    width: auto;
+  }
+  
+  .type9{
+    padding: 0px;
+    width: auto;
+  }
+
+  #part2{
+    font-size: 20px;
+    color: black;
+    top: 30%;
+    left: 10%;
+    width: 300px;
+    height: auto;
+    display: inline;
+    background-color: white;
+  }
+  #part1{
+    padding: 0px;
+    margin: 0px;
+    justify-content: flex-start;
+    padding-right: 100%;
+  }
+
+  body{
+    background-color: white;
+  }
+  
+ 
+  #more{
+    border: none;
+    margin: 30px;
+  }
+  #part1{
+    background-color: white;
+  }
+
+  #logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    justify-content: flex-start;
+  }
+
+  #goku{
+    margin-left: 0px;
+  }
+
+ 
+
+  nav{
+    justify-content: flex-end;
+   
+  }
+   
+  .menav{
+      display: inline-block;
+      row-gap: 30px;
+      font-size: 15px;
+      margin-left: 57px;
+  }
+ 
+  
+  
+ 
+ 
+}
+

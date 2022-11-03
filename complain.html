@@ -5,71 +5,170 @@
 
     <meta charset="utf-8">
     <title>Complain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="info.css">
+    <script type="text/javascript">
+      function lettersonly(input){
+        var error = /[^a-z]/gi;  //this says that do not include anything thats not in between of a-z
+        input.value = input.value.replace(error, "")   //if something is other than a-z then replace it with an empty space
+      }
+
+      function nosonly(input){
+        var error = /[^0-9 & / & -]/gi;  //this says that do not include anything thats not in between of 0-9 or - or /
+        input.value = input.value.replace(error, "")   //if something is other than a-z then replace it with an empty space
+      }
+
+      function validate(){
+         /*var m = document.getElementById('in3')
+         if(m.indexOf('@')<=0){
+                document.getElementById('message').innerHTML='Invalid Email'
+                return false  
+         }
+         if((a.charAt(a.length-4)!='.') && (a.charAt(a.length-3)!='.')){
+          document.getElementById('message').innerHTML="Invalid Email"
+          return false
+         } */
+         /*var form = document.getElementsByTagName("form")
+         var email = document.getElementById('in3').value
+         var text = document.getElementById('message')
+         var pattern = /^[^]+@[^]+\.[A-Z]{2,3}$/
+
+         if(email.match(pattern)){
+          form.classList.add("valid");
+          form.classList.remove("invalid")
+          text.innerHTML = "Your Email Address is valid"
+          text.style.color = "#00ff00"
+         }
+         else{
+          form.classList.remove("valid")
+          form.classList.add("invalid")
+          text.innerHTML = "Please Enter valid Email Address"
+          text.style.color = "ff0000"
+         }
+         if(email == ""){
+          form.classList.remove("valid");
+          form.classList.remove("invalid")
+          text.innerHTML = ""
+          text.style.color = "#00ff00"
+         }*/
+         function validate(input){
+        var error = /^[^]+@[^]+\.[A-Z]{2,3}$/;  //this says that do not include anything thats not in between of 0-9 or - or /
+        input.value = input.value.replace(error, "")   //if something is other than a-z then replace it with an empty space
+      }
+      }
+        
+    </script>
   </head>
 
   <body id="comp">
 
     <header>
+    <section id="hamza">  
+      <section>
       <img  id="logo" src="cyberLOGO.jpg" alt="logo" width="100" height="100">
-
+      </section>
       <nav>
+        <section class="menav">
         <a href="miniproj.html" class="btn1" id="lu">HOME</a>
         <a href="complain.html" class="btn2" id="ff">Complain</a>
-        <a href="info.html" class="btn3" id="na">More Information</a>
+        <a href="info.html" class="btn3" id="na">More</a>
+        </section>
       </nav>
-
+    </section>
     </header>
 <br><br>
 
 <section id="fom">
 
+    <div id="af">
     <form>
 
       First Name:<br>
-      <input type="text" name="firstname" value="">
+      <input type="text" name="firstname" onkeyup="lettersonly(this)" placeholder="Enter only letters" value="" id="in1">
       <br>
       <br>
 
       Last Name:<br>
-      <input type="text" name="lastname" value="">
+      <input type="text" name="lastname" onkeyup="lettersonly(this)" placeholder="Enter only letters" value="" id="in2">
       <br>
       <br>
 
       EMAIL:<br>
-      <input type="text" name="email" value="">
+      <input type="text" name="myEmail"  multiple="" value="" id="in3" placeholder="Enter Your valid Email id" onkeydown="validate(this)">
+      <span id="message"></span>
       <br>
       <br>
 
       Date:<br>
-      <input type="text" name="date" value="">
+      <input type="text" name="date" value="" id="in4" onkeyup="nosonly(this)" placeholder="Enter the date of the crime">
       <br>
       <br>
 
       Type of crime:<br>
-      <input type="text" name="type" value="">
+      <input type="text" name="type" value="" id="in5" onkeyup="lettersonly(this)" placeholder="Enter the type">
       <br>
       <p>if you dont know then <a href="info.html">click here</a></p>
       <br>
       <br>
 
       Location:<br>
-      <input type="text" name="" value="">
+      <input type="text" name="" value="" id="in6" onkeyup="lettersonly(this)" placeholder="Enter the proper location of the crime">
       <br>
       <br>
 
       Enter the name of the Website: <br>
-      <input type="text">
-       <br><br><br>
+      <input type="text" id="in7" placeholder="Please enter the correct link">
+       <br><br><br>  
+        
+
 
     </form>
 
-    <button type="button" id="sub">SUBMIT</button>
+
+    <button id="Sub" class="submit">Submit</button> <button id="Conf" class="submit">Confirm</button>
+   
+  </div>
+  
+  <h1 id="goku">Table will appear here</h1>
+        <div id="ar">
+          
+               <!-- <input type="text" id="o1"><input type="text" id="o9">  <br>
+                <input type="text" id="o2"><input type="text" id="o10"> <br>
+                <input type="text" id="o3"><input type="text" id="o11"> <br>
+                <input type="text" id="o4"><input type="text" id="o12"> <br>
+                <input type="text" id="o5"><input type="text" id="o13"> <br>
+                <input type="text" id="o6"><input type="text" id="o14"> <br>
+                <input type="text" id="o7"><input type="text" id="o15"> <br>    
+               -->
+               
+               <section id="tabm">
+               <div id="o1" class="table"></div> 
+               <div id="o2" class="table"></div>              
+               <div id="o3" class="table"></div>
+               <div id="o4" class="table"></div>
+               <div class="table" id="o5"></div>
+               <div class="table" id="o6"></div> 
+               <div class="table" id="o7"></div> 
+              </section>
+              
+
+               <section id="tabMa">
+               <div class="table" id="o9"></div> 
+               <div id="o10" class="table"></div>
+               <div class="table" id="o11"></div> 
+               <div id="o12" class="table"></div>
+               <div class="table" id="o13"></div> 
+               <div id="o14" class="table"></div>
+               <div class="table" id="o15"></div> 
+              </section>
+              
+        </div>
+
 
   </section>
 
 
-
+<script src="info.js"></script>
 
   </body>
 </html>
