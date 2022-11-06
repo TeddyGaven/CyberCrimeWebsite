@@ -333,8 +333,12 @@ header{
   margin: 0px;
 }
 
-@media all and (min-width: 150px) and (max-width: 500px)
+@media all and (min-width: 150px) and (max-width: 600px)
   {
+    
+    #up{
+      margin-left: 0px;
+    }
 
   * {
     margin: 0px;
@@ -656,6 +660,11 @@ body #bruh{
       font-size: 15px;
       margin-left: 57px;
   }
+  
+  #siglog{
+    margin: 0px;
+    padding: 0px;
+  }
 
   #hsign{
     color: black;
@@ -664,7 +673,6 @@ body #bruh{
 
   #up{
     display: inline-block;
-    justify-content: center;
     margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -673,7 +681,7 @@ body #bruh{
     border-radius: 30px;
     width: auto;
   }
-
+ 
   #lines{
     width: auto;
   }
@@ -701,18 +709,18 @@ body #bruh{
   #siglog{
     background-color: black;
     width: auto;
+    height: auto;
   }
 
   #downloadext{
     background: green;
     width:auto;
     height:auto;
-    font-size: 10px;
+    font-size: 20px;
     margin-left: 0px;
     justify-content: flex-start;
     padding-left: 0px;
   }
-
 
 
 }
