@@ -24,6 +24,14 @@ body#stu{
   width: 400px;
 }
 
+#lines{
+  width: auto;
+}
+
+#guide{
+  margin-left: 600px;
+}
+
 #signup{
    width: 200px;
    height: 400px;
