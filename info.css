@@ -657,6 +657,63 @@ body #bruh{
       margin-left: 57px;
   }
 
+  #hsign{
+    color: black;
+    margin-left: 0px;
+  }
+
+  #up{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid White;
+    background-color: white;
+    border-radius: 30px;
+    width: auto;
+  }
+
+  #lines{
+    width: auto;
+  }
+
+  #guide{
+    margin-left: 0px;
+  }
+
+  #signup{
+     width: autp;
+     height: auto;
+     margin-left: 0px;
+  }
+
+  #sigin{
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  #suip{
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+
+  #siglog{
+    background-color: black;
+    width: auto;
+  }
+
+  #downloadext{
+    background: green;
+    width:auto;
+    height:auto;
+    font-size: 10px;
+    margin-left: 0px;
+    justify-content: flex-start;
+    padding-left: 0px;
+  }
+
+
 
 }
 
