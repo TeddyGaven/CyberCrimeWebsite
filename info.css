@@ -7,7 +7,50 @@ body#stu{
   margin: 0;
 }
 
+#hsign{
+  color: black;
+  margin-left: 70px;
+}
 
+#up{
+  display: inline-block;
+  justify-content: center;
+  margin-left: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px solid White;
+  background-color: white;
+  border-radius: 30px;
+  width: 400px;
+}
+
+#signup{
+   width: 200px;
+   height: 400px;
+   margin-left: 130px;
+}
+
+#sigin{
+  border-radius: 20px;
+  background-color: white;
+}
+
+#suip{
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+#siglog{
+  background-color: black;
+}
+
+#downloadext{
+  background: green;
+  width:80px;
+  height:40px;
+  font-size: 50px;
+  margin-left: 60px;
+}
 
 body#bruh{
   background-color: #767676;
@@ -282,18 +325,18 @@ header{
   margin: 0px;
 }
 
-@media all and (min-width: 150px) and (max-width: 600px)
+@media all and (min-width: 150px) and (max-width: 500px)
   {
-   
+
   * {
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
     border: 0px;
-  }  
-    
+  }
+
 body #bruh{
-    background-color: rgb(142, 245, 83); 
-    width: auto; 
+    background-color: rgb(142, 245, 83);
+    width: auto;
     height: auto;
   }
 
@@ -333,16 +376,16 @@ body #bruh{
     margin-right: 200px;
   }
 
-  #part1 #bgimg{          
+  #part1 #bgimg{
     display: none;
   }
-  
+
   #super{
     display: inline-block;
     width: auto;
     margin-left: 0px;
     padding-left: 0px;
-    
+
   }
 
   #super #supimg{
@@ -359,13 +402,13 @@ body #bruh{
     position: absolute;
   }
 
-  header { 
+  header {
     background-color: rgb(23, 15, 143);
-  
+
     padding: 0px;
     margin: 0px;
   }
- 
+
   .menav{
     display:inline-block;
     position: absolute;
@@ -383,9 +426,9 @@ body #bruh{
     background-color: white;
     padding: 5px;
     color: #004;
-    font-weight: 100;    
+    font-weight: 100;
     margin: -109;
-  
+
   }
 
   #lu{
@@ -413,20 +456,20 @@ body #bruh{
     color: rgb(10, 10, 105);
     font-weight: 100;
   }
-  
+
   .btn3{
     background-color: white;
     padding: 5px;
     margin: -5px;
     color: rgb(15, 15, 207);
-    font-weight: 100;  
+    font-weight: 100;
   }
 
   #stu{
     width: auto;
     height: auto;
   }
-  
+
   #tit{
     font-size: 20px;
     padding-left: 0px;
@@ -465,7 +508,7 @@ body #bruh{
     align-items: top;
     width: auto;
     justify-content: flex-end;
-   
+
   }
 
   #fom{
@@ -498,47 +541,47 @@ body #bruh{
     height: auto;
   }
 
-  
+
   .type1{
     padding: 0px;
     width: auto;
   }
-  
+
   .type2{
     padding: 0px;
     width: auto;
   }
-  
+
   .type3{
     padding: 0px;
     width: auto;
   }
-  
+
   .type4{
     padding: 0px;
     width: auto;
   }
-  
+
   .type5{
     padding: 0px;
     width: auto;
   }
-  
+
   .type6{
     padding: 0px;
     width: auto;
   }
-  
+
   .type7{
     padding: 0px;
     width: auto;
   }
-  
+
   .type8{
     padding: 0px;
     width: auto;
   }
-  
+
   .type9{
     padding: 0px;
     width: auto;
@@ -564,8 +607,8 @@ body #bruh{
   body{
     background-color: white;
   }
-  
- 
+
+
   #more{
     border: none;
     margin: 30px;
@@ -586,24 +629,39 @@ body #bruh{
   #goku{
     margin-left: 0px;
   }
+#up{
+  width: auto;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
 
- 
 
   nav{
     justify-content: flex-end;
-   
+
   }
-   
+
   .menav{
       display: inline-block;
       row-gap: 30px;
       font-size: 15px;
       margin-left: 57px;
   }
- 
-  
-  
- 
- 
+
+
 }
 
+@media all and (min-width: 500px) and (max-width: 1200px)
+{
+  header{
+    width: 1377px;
+  }
+  nav{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: auto;
+  }
+
+}
